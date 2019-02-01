@@ -98,7 +98,7 @@ cRadius = 10;}
 adjustRadius();
 
 // Load in Data
-d3.csv('data/data.csv').then(function(data) {
+d3.csv("assets/data/data.csv").then(function(data) {
 visualize(data);
 });
 
